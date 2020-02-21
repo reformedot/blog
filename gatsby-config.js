@@ -50,6 +50,12 @@ module.exports = {
             head: true,
         },
     },
+    {
+        resolve: 'gatsby-source-prismic-graphql',
+        options: {
+            repositoryName: 'reformedot', // (REQUIRED, replace with your own)
+        }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
