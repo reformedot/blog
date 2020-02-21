@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'prist', // (REQUIRED, replace with your own)
+            repositoryName: 'reformedot', // (REQUIRED, replace with your own)
             linkResolver: () => post => `/${post.uid}`,
         }
     },
@@ -49,12 +49,6 @@ module.exports = {
             trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
             head: true,
         },
-    },
-    {
-        resolve: 'gatsby-source-prismic-graphql',
-        options: {
-            repositoryName: 'reformedot', // (REQUIRED, replace with your own)
-        }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
